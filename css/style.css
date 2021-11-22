@@ -1,0 +1,41 @@
+body {
+  background-color: var(--secondary-bacground-color);
+
+  color: var(--primary-text-color);
+}
+
+.list-link {
+  color: var(--title-text-color);
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+/* feature */
+.feature .title {
+  color: var(--title-text-color);
+}
+/* button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--white-color);
+}
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+/* hero */
+.Hero-title {
+  color: var(--title-text-color);
+}
+/* наша команда */
+.list .Socialnet:hover,
+.list .Socialnet:focus {
+  color: var(--accent-color);
+}
+/* наши клиенты */
+.list .Client:hover,
+.list .Client:focus {
+  color: var(--accent-color);
+}

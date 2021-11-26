@@ -1,3 +1,35 @@
-body {
-  background-color: tomato;
+:root body {
+  color: var(--title-text-color);
+  background-color: var(--white-color);
+  font-family: Roboto, sans-serif;
+}
+
+.hiddentitle {
+  display: none;
+}
+.buttonfromportfolio {
+  color: var (--title-text-color);
+  background-color: var(--secondary-bacground-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  border: none;
+}
+button:hover,
+button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.namework {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.categorywork {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }

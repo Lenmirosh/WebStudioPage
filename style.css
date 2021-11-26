@@ -10,6 +10,10 @@ body {
 /* section */
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 /* feature */
 .feature .title {
@@ -19,14 +23,20 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
-.button.primary {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
+
 /* hero */
 .Hero-title {
-  color: var(--title-text-color);
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /* наша команда */
 .list .Socialnet:hover,
@@ -37,4 +47,26 @@ body {
 .list .Client:hover,
 .list .Client:focus {
   color: var(--accent-color);
+}
+.title {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.title-description {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.OurTeam {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.OurTeam-position {
+  font-weight: 400;
+  color: var(--primary-text-color);
 }

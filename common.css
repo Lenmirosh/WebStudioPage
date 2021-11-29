@@ -13,6 +13,8 @@ body {
 
 .list {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 a {
   text-decoration: none;
@@ -43,7 +45,8 @@ a {
   color: var(--title-text-color);
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus .auth-nav .link:focus,
+.auth-nav .link:hover {
   color: var(--accent-color);
 }
 .site-nav .link.current {
@@ -52,18 +55,25 @@ a {
 .auth-nav .link {
   color: var(--primary-text-color);
 }
-.auth-nav .link:focus,
-.auth-nav .link:hover {
-  color: var(--accent-color);
-}
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-color);
-}
-.Appeal {
+
+.appeal {
+  display: inline-block;
+
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .button.primary {
+  text-align: center;
   background-color: var(--accent-color);
   color: var(--white-color);
+  padding: 10px, 32px;
+  /* margin-bottom: 200px; */
+  min-width: 20px;
+}
+.hero-button {
+  margin-bottom: 200px;
+}
+.logo-container {
+  display: inline-block;
+  margin-bottom: 20px;
 }

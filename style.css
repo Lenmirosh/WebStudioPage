@@ -8,47 +8,84 @@ body {
 }
 
 /* section */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid blue;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .section-title {
+  text-align: center;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 /* feature */
 .feature .title {
   color: var(--title-text-color);
 }
+.list.feature {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 /* button */
 .button {
+  border: 1px solid transparent;
+  display: inline-block;
   color: var(--title-text-color);
   background-color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  border-radius: 4px;
 }
 
 /* hero */
-.Hero-title {
+.hero {
+  text-align: center;
+}
+.hero-title {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  margin-bottom: 30px;
 }
 /* наша команда */
-.list .Socialnet:hover,
-.list .Socialnet:focus {
+.list .socialnet:hover,
+.list .socialnet:focus {
   color: var(--accent-color);
 }
 /* наши клиенты */
-.list .Client:hover,
-.list .Client:focus {
+.list .client:hover,
+.list .client:focus {
   color: var(--accent-color);
 }
+
 .title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   font-weight: 700;
@@ -56,17 +93,35 @@ body {
   text-transform: uppercase;
 }
 .title-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.OurTeam {
+.our-team {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin: 0px;
+  padding: 0px;
 }
-.OurTeam-position {
+.our-team-name {
+  margin-bottom: 10px;
+}
+.our-team-position {
   font-weight: 400;
   color: var(--primary-text-color);
+  margin-bottom: 16px;
+}
+.our-team-img {
+  margin-bottom: 30px;
+}
+.section {
+  margin-bottom: 94px;
+}
+.container-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }

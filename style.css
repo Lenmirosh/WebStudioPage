@@ -82,6 +82,9 @@ p {
 .list .client:focus {
   color: var(--accent-color);
 }
+.list-item img {
+  display: block;
+}
 
 .title {
   margin-top: 0px;

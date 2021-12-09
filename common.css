@@ -10,11 +10,28 @@
 body {
   font-family: Roboto, sans-serif;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .list {
   list-style: none;
   margin: 0px;
   padding: 0px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid blue;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 a {
   text-decoration: none;
@@ -26,6 +43,30 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.site-nav {
+  display: flex;
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* .site-nav.list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+} */
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+.container.main-nav {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -33,19 +74,32 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
 }
-.logo-web {
-  color: var(--logo-text-color);
+
+/* наша команда */
+.list .socialnet:hover,
+.list .socialnet:focus {
+  color: var(--accent-color);
+}
+/* наши клиенты */
+.list .client:hover,
+.list .client:focus {
+  color: var(--accent-color);
+}
+.list-item img {
+  display: block;
 }
 /* site-nav */
 .site-nav .link {
   color: var(--title-text-color);
 }
 .site-nav .link:hover,
-.site-nav .link:focus .auth-nav .link:focus,
+.site-nav .link:focus,
+.auth-nav .link:focus,
 .auth-nav .link:hover {
   color: var(--accent-color);
 }

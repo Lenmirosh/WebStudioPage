@@ -15,11 +15,32 @@
   line-height: 1.63;
   letter-spacing: 0.03em;
   border: none;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
 }
 button:hover,
 button:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+}
+.logo-web.logo {
+  margin-right: 93px;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.container {
+  outline: 2px solid blue;
+}
+.container.list {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .namework {
   font-weight: 700;
@@ -32,4 +53,55 @@ button:focus {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+.container.main-nav {
+  display: flex;
+  text-align: center;
+  margin-bottom: 94px;
+}
+.site-nav .list .item,
+.auth-nav .list .item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.logo-web.logo {
+  margin-right: 93px;
+}
+.logo-web.logo.footer {
+  margin-right: 0px;
+}
+.container.list {
+  display: block;
+  background-color: chartreuse;
+}
+.container.list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.list .item:not(:last-child) {
+  margin-right: 8px;
+}
+.gallary {
+  display: block;
+}
+.container.list.list-works {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 94px;
+  background-color: chocolate;
+}
+.list-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.list-item:nth-child(3n) {
+  margin-right: 0px;
+}
+.list-item:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+.gallary {
+  margin-bottom: 20px;
 }

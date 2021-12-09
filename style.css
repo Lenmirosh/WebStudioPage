@@ -8,24 +8,7 @@ body {
 }
 
 /* section */
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  outline: 2px solid blue;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+
 .section-title {
   text-align: center;
   color: var(--title-text-color);
@@ -35,14 +18,26 @@ p {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
+
+.auth-nav .link {
+  /* background-color: cadetblue; */
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.auth-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 /* feature */
 .feature .title {
   color: var(--title-text-color);
 }
 .list.feature {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  display: flex;
+  /* margin-top: 0px;
+  margin-bottom: 0px; */
 }
+
 /* button */
 .button {
   border: 1px solid transparent;
@@ -72,20 +67,19 @@ p {
   letter-spacing: 0.06em;
   margin-bottom: 30px;
 }
-/* наша команда */
-.list .socialnet:hover,
-.list .socialnet:focus {
-  color: var(--accent-color);
-}
-/* наши клиенты */
-.list .client:hover,
-.list .client:focus {
-  color: var(--accent-color);
-}
-.list-item img {
-  display: block;
+/* чем мы занимаемся  */
+.logo-web {
+  color: var(--logo-text-color);
 }
 
+.logo-web.logo {
+  margin-right: 93px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
 .title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -100,6 +94,9 @@ p {
   margin-bottom: 0px;
   font-size: 14px;
   line-height: 1.71;
+}
+.feature-items li {
+  width: 270px;
 }
 
 .our-team {
@@ -127,4 +124,10 @@ p {
 .container-team {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.list.footer {
+  justify-content: flex-start;
+}
+.list .item:not(:last-child) {
+  margin-right: 10px;
 }

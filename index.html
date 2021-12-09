@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
 
+
+
+        
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
             
     <link rel="stylesheet" href="./common.css">
@@ -18,23 +21,26 @@
 <body>
     <!--header  -->
     <header class="nav"> 
-        <div class="container" >
-        <nav >
-        <a href="WebStudio" class="logo"> Web <span class="logo-web">Studio</span></a>
-      
+        <div class="container main-nav" >
+        <!-- <a href="WebStudio" class="logo"> Web <span class="logo-web">Studio</span></a> -->
+        <a href="WebStudio" class="logo"> Web<span class="logo-web logo">Studio</span></a>
+        <nav>
         <ul class="site-nav list" >
-            <li><a  href="./index.html" class="list-link link current" >Студия </a></li>
-            <li><a href="./portfolio.html" class="list-link link">Портфолио</a></li>
-            <li><a href="Контакты" class="list-link link">Контакты</a></li>
+            <li class="item"><a  href="./index.html" class="list-link link current" >Студия </a></li>
+            <li class="item"><a href="./portfolio.html" class="list-link link">Портфолио</a></li>
+            <li class="item"><a href="Контакты" class="list-link link">Контакты</a></li>
             
         </ul>
-        <ul class="auth-nav list"  >
-            <li><a href="mailto:info@devstudio.com" class=" link">info@devstudio.com</a></li>
-            <li><a href="tel:+38 096 111 11 11" class="link" >+38 096 111 11 11</a></li>
-        </ul>
+        
         </nav>
+        <ul class="auth-nav list"  >
+            <li class="item"><a href="mailto:info@devstudio.com" class=" link">info@devstudio.com</a></li>
+            <li class="item"><a href="tel:+38 096 111 11 11" class="link" >+38 096 111 11 11</a></li>
+        </ul>
         </div>
-    </header>
+
+
+</header>
     <main>
     <!-- section Hero -->
         <section class="section">
@@ -46,7 +52,7 @@
     <!-- section Feature -->
         <section class="section">
             <div class="container">
-            <ul class="list feature" >
+            <ul class="list feature feature-items" >
                 <li><h3 class="title">Внимание к деталям</h3> 
                     <img src="" alt="антена" width="270" height="120">
                     <p class="title-description">Идейные соображения, а также начало повседневной работы по формированию позиции. </p>
@@ -54,17 +60,17 @@
                 <li>
                     <h3 class="title">Пунктуальность</h3>
                     <img src="" alt="часы" width="270" height="120">
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой. </p>
+                    <p class="title-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой. </p>
                 </li>
                 <li>
                     <h3 class="title">Планирование</h3>
                     <img src="" alt="диаграмма" width="270" height="120">
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <p class="title-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
                     <h3 class="title">Современные технологии</h3>
                     <img src="" alt="астронавт" width="270" height="120">
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <p class="title-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
 
             </ul>
@@ -78,10 +84,10 @@
                 <li class="list-item" >
                     <a  href=""> <img src="./img/img (7) (1).jpg" alt="a man is developing a website" width="370"></a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a href=""> <img class="works" src="./img/img (4) (1).jpg" alt="woman works as a marketer" width="370"></a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a href=""> <img class="works" src="./img/img (5) (1).jpg" alt="woman over website design" width="370"> </a>
                 </li>
                </ul>
@@ -98,13 +104,13 @@
                         <figure class="our-team">
                         <img class = "our-team-img" src="./img/img_demyanenko.jpg" alt="Photo of Demyanenko" width="270" > 
                         <figcaption>
-                    <h4 class="our-team-name">Игорь Демьяненко</class=> </h4>
-                          <p class="our-team-position">Product Designer</p>
+                    <h4 class="our-team-name">Игорь Демьяненко </h4>
+                          <p class="our-team-position"> Product Designer</p>
                 <ul class="list">
-                        <li> <a href="" aria-label="ссылка на Instagram" class="socialnet"> Instagram</a></li>
-                        <li> <a href="" aria-label="ссылка на Twitter" class="socialnet"> Twitter</a></li>
-                        <li> <a href="" aria-label="ссылка на Facebok" class="socialnet"> Facebok</a></li>
-                        <li> <a href="" aria-label="ссылка на LinkedIn" class="socialnet"> LinkedIn</a></li>
+                        <li class="item"> <a href="" aria-label="ссылка на Instagram" class="socialnet"> Instagram</a></li>
+                        <li class="item"> <a href="" aria-label="ссылка на Twitter" class="socialnet"> Twitter</a></li>
+                        <li class="item"> <a href="" aria-label="ссылка на Facebok" class="socialnet"> Facebok</a></li>
+                        <li class="item"> <a href="" aria-label="ссылка на LinkedIn" class="socialnet"> LinkedIn</a></li>
                     
                     </ul> 
                         </figcaption>
@@ -118,10 +124,10 @@
                     <h4  class="our-team-name" > Ольга Репина  </h4>
                           <p class="our-team-position"> Frontend Developer </p>
                         <ul class="list" >
-                                <li> <a href="" aria-label="ссылка на Instagram" class="socialnet"> Instagram</a></li>
-                                <li> <a href="" aria-label="ссылка на Twitter" class="socialnet"> Twitter</a></li>
-                                <li> <a href="" aria-label="ссылка на Facebok" class="socialnet"> Facebok</a></li>
-                                <li> <a href="" aria-label="ссылка на LinkedIn" class="socialnet"> LinkedIn</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на Instagram" class="socialnet"> Instagram</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на Twitter" class="socialnet"> Twitter</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на Facebok" class="socialnet"> Facebok</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на LinkedIn" class="socialnet"> LinkedIn</a></li>
                         
                         </ul>
                         </figcaption>
@@ -129,15 +135,15 @@
                     </li>
                     <li>
                         <figure class="our-team">
-                            <img src="./img/img_tarasov.jpg" alt="Photo of Tarasov" width="270">
+                            <img  class = "our-team-img" src="./img/img_tarasov.jpg" alt="Photo of Tarasov" width="270">
                         <figcaption>
                             <h4 class="our-team-name"> Николай Тарасов </h4> 
                             <p class="our-team-position">Marketing </p>
                         <ul class="list" >
-                                <li> <a href="" aria-label="ссылка на Instagram" class="socialnet"> Instagram</a></li>
-                                <li> <a href="" aria-label="ссылка на Twitter" class="socialnet"> Twitter</a></li>
-                                <li> <a href="" aria-label="ссылка на Facebok" class="socialnet"> Facebok</a></li>
-                                <li> <a href="" aria-label="ссылка на LinkedIn" class="socialnet"> LinkedIn</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на Instagram" class="socialnet"> Instagram</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на Twitter" class="socialnet"> Twitter</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на Facebok" class="socialnet"> Facebok</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на LinkedIn" class="socialnet"> LinkedIn</a></li>
                                 
                         </ul>
                         </figcaption>   
@@ -146,15 +152,15 @@
                     </li>
                     <li>
                         <figure class="our-team">
-                            <img src="./img/img_ermakov.jpg" alt="Photo of Ermakov" width="270">
+                            <img class = "our-team-img" src="./img/img_ermakov.jpg" alt="Photo of Ermakov" width="270">
                         <figcaption>
                             <h4 class="our-team-name"> Михаил Ермаков </h4>
                             <p class="our-team-position"> UI Designer </p>
                             <ul class="list" >
-                                <li> <a href="" aria-label="ссылка на Instagram" class="socialnet"> Instagram</a></li>
-                                <li> <a href="" aria-label="ссылка на Twitter" class="socialnet"> Twitter</a></li>
-                                <li> <a href="" aria-label="ссылка на Facebok" class="socialnet"> Facebok</a></li>
-                                <li> <a href="" aria-label="ссылка на LinkedIn" class="socialnet"> LinkedIn</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на Instagram" class="socialnet"> Instagram</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на Twitter" class="socialnet"> Twitter</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на Facebok" class="socialnet"> Facebok</a></li>
+                                <li class="item"> <a href="" aria-label="ссылка на LinkedIn" class="socialnet"> LinkedIn</a></li>
                             
                             </ul>
                         </figcaption>  
@@ -192,11 +198,11 @@
     </address>
     </a>
     <b class="appeal">присоединяйтесь</b>
-<ul class="list">
-    <li> <a href="" aria-label="ссылка на Instagram"> Instagram</a></li>
-    <li> <a href="" aria-label="ссылка на Twitter"> Twitter</a></li>
-    <li> <a href="" aria-label="ссылка на Facebok"> Facebok</a></li>
-    <li> <a href="" aria-label="ссылка на LinkedIn"> LinkedIn</a></li>
+<ul class="list footer">
+    <li class="item"> <a href="" aria-label="ссылка на Instagram"> Instagram</a></li>
+    <li class="item"> <a href="" aria-label="ссылка на Twitter"> Twitter</a></li>
+    <li class="item"> <a href="" aria-label="ссылка на Facebok"> Facebok</a></li>
+    <li class="item"> <a href="" aria-label="ссылка на LinkedIn"> LinkedIn</a></li>
 
 </ul>
     <b class="appeal" >подпишитесь на рассылку</b>

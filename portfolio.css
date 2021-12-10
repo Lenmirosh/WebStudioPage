@@ -82,6 +82,9 @@ button:focus {
 .list .item:not(:last-child) {
   margin-right: 8px;
 }
+img.gallary {
+  margin-bottom: 0px;
+}
 .gallary {
   display: block;
 }
